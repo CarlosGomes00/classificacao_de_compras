@@ -1,3 +1,7 @@
+"""
+ModeloBase para a tarefa de previsão
+"""
+
 from catboost import CatBoostClassifier
 
 
