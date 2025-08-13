@@ -1,0 +1,15 @@
+
+Adicionar as pools do cat boost no ficheiro de treino
+
+data_splitting.py
+- Carregar dataset
+- Dividir em train/val/test
+- Identificar colunas categóricas
+- Guardar: X_train, X_val, X_test, y_train, y_val, y_test, categorical_cols
+
+
+train_model.py
+- Carregar dados divididos
+- Criar pools do CatBoost
+- Configurar modelo
+- Treinar e avaliar
